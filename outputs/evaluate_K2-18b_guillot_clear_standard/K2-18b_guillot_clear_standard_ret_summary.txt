@@ -1,0 +1,50 @@
+K2-18b_guillot_clear_standard
+2024-12-19, 23:11:25
+/home/juan/retrievals/tesis/outputs
+Live points: 200
+
+Fixed Parameters
+    D_pl = 117337827120339632128.000
+    stellar_radius = 30610800000.000
+    planet_radius = 1451287600.000
+    mass = 51534082817673771334229819392.000
+    line_species = ['CH4.R1500', 'CO2.R1500', 'H2O.R1500', 'NH3.R1500']
+    cloud_species = []
+Free Parameters, Prior^-1(0), Prior^-1(1)
+    T_int = 0.000060, 599.999940
+    T_equ = 0.000060, 599.999940
+    gamma = -1.999999, 5.999999
+    log_kappa_IR = -3.000000, 1.000000
+    CH4 = -7.999999, -0.100001
+    CO2 = -7.999999, -0.100001
+    H2O = -7.999999, -0.100001
+    NH3 = -7.999999, -0.100001
+
+Data
+K2-18b_NIRISS
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRISS.txt
+    Model Function = guillot_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 700
+    model resolution = 1500
+K2-18b_NIRSPEC
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRSPEC.txt
+    Model Function = guillot_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 2700
+    model resolution = 1500
+
+Multinest Outputs
+  marginal evidence:
+    log Z = 12512.3 +- 0.0
+    ln Z = 28810.6 +- 0.0
+  Statistical Fit Parameters
+    T_int          144 +- 31
+    T_equ          64 +- 40
+    gamma          3.3 +- 1.8
+    log_kappa_IR   0.42 +- 0.30
+    CH4            -0.92 +- 0.19
+    CO2            -1.22 +- 0.39
+    H2O            -5.4 +- 1.9
+    NH3            -6.2 +- 1.2
+

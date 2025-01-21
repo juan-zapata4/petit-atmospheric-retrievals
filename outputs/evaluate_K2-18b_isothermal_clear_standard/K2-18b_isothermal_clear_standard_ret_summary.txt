@@ -1,0 +1,44 @@
+K2-18b_isothermal_clear_standard
+2025-01-20, 22:33:48
+/home/juan/retrievals/tesis/outputs
+Live points: 200
+
+Fixed Parameters
+    D_pl = 117337827120339632128.000
+    stellar_radius = 30610800000.000
+    planet_radius = 1451287600.000
+    mass = 51534082817673771334229819392.000
+    line_species = ['CH4.R1500', 'CO2.R1500', 'H2O.R1500', 'NH3.R1500']
+    cloud_species = []
+Free Parameters, Prior^-1(0), Prior^-1(1)
+    temperature = 0.000100, 999.999900
+    CH4 = -7.999999, -0.100001
+    CO2 = -7.999999, -0.100001
+    H2O = -7.999999, -0.100001
+    NH3 = -7.999999, -0.100001
+
+Data
+K2-18b_NIRISS
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRISS.txt
+    Model Function = isothermal_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 700
+    model resolution = 1500
+K2-18b_NIRSPEC
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRSPEC.txt
+    Model Function = isothermal_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 2700
+    model resolution = 1500
+
+Multinest Outputs
+  marginal evidence:
+    log Z = 12443.9 +- 0.0
+    ln Z = 28653.2 +- 0.0
+  Statistical Fit Parameters
+    temperature    909 +- 17
+    CH4            -0.796 +- 0.080
+    CO2            -2.55 +- 0.40
+    H2O            -2.00 +- 0.60
+    NH3            -0.461 +- 0.036
+

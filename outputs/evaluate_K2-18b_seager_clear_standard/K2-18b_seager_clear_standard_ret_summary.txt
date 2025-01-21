@@ -1,0 +1,54 @@
+K2-18b_seager_clear_standard
+2025-01-12, 09:24:15
+/home/juan/retrievals/tesis/outputs
+Live points: 200
+
+Fixed Parameters
+    D_pl = 117337827120339632128.000
+    stellar_radius = 30610800000.000
+    planet_radius = 1451287600.000
+    mass = 51534082817673771334229819392.000
+    line_species = ['CH4.R1500', 'CO2.R1500', 'H2O.R1500', 'NH3.R1500']
+    cloud_species = []
+Free Parameters, Prior^-1(0), Prior^-1(1)
+    P2 = -5.999999, -0.000001
+    P1 = -5.999999, -0.000001
+    log_P_set = -5.999999, -0.000001
+    T_set = 100.000025, 349.999975
+    alpha_0 = -2.999999, 2.999999
+    alpha_1 = -2.999999, 2.999999
+    CH4 = -7.999999, -0.100001
+    CO2 = -7.999999, -0.100001
+    H2O = -7.999999, -0.100001
+    NH3 = -7.999999, -0.100001
+
+Data
+K2-18b_NIRISS
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRISS.txt
+    Model Function = madhushudhan_seager_transmission_modified
+    distance = 3.0856775814913675e+19
+    data resolution = 700
+    model resolution = 1500
+K2-18b_NIRSPEC
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRSPEC.txt
+    Model Function = madhushudhan_seager_transmission_modified
+    distance = 3.0856775814913675e+19
+    data resolution = 2700
+    model resolution = 1500
+
+Multinest Outputs
+  marginal evidence:
+    log Z = 12512.5 +- 0.0
+    ln Z = 28811.2 +- 0.1
+  Statistical Fit Parameters
+    P2             -3.52 +- 0.60
+    P1             -4.6 +- 1.5
+    log_P_set      -4.58 +- 0.80
+    T_set          218 +- 70
+    alpha_0        -0.1 +- 2.0
+    alpha_1        -0.275 +- 0.041
+    CH4            -1.01 +- 0.25
+    CO2            -1.45 +- 0.48
+    H2O            -5.2 +- 1.8
+    NH3            -6.3 +- 1.1
+

@@ -1,0 +1,58 @@
+K2-18b_seager_grey_clouds_standard
+2025-01-13, 13:03:10
+/home/juan/retrievals/tesis/outputs
+Live points: 200
+
+Fixed Parameters
+    D_pl = 117563767217525309440.000
+    stellar_radius = 30610800000.000
+    planet_radius = 1508481200.000
+    mass = 53280357447222935719814103040.000
+    line_species = ['CH4.R1500', 'CO2.R1500', 'H2O.R1500', 'NH3.R1500']
+    cloud_species = []
+Free Parameters, Prior^-1(0), Prior^-1(1)
+    P2 = -5.999999, -0.000001
+    P1 = -5.999999, -0.000001
+    log_P_set = -5.999999, -0.000001
+    T_set = 100.000025, 349.999975
+    alpha_0 = -2.999999, 2.999999
+    alpha_1 = -2.999999, 2.999999
+    log_Pcloud = -5.999999, 0.999999
+    patchiness = 0.000000, 1.000000
+    CH4 = -7.999999, -0.100001
+    CO2 = -7.999999, -0.100001
+    H2O = -7.999999, -0.100001
+    NH3 = -7.999999, -0.100001
+
+Data
+K2-18b_NIRISS
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRISS.txt
+    Model Function = madhushudhan_seager_transmission_modified
+    distance = 3.0856775814913675e+19
+    data resolution = 700
+    model resolution = 1500
+K2-18b_NIRSPEC
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRSPEC.txt
+    Model Function = madhushudhan_seager_transmission_modified
+    distance = 3.0856775814913675e+19
+    data resolution = 2700
+    model resolution = 1500
+
+Multinest Outputs
+  marginal evidence:
+    log Z = 12514.1 +- 0.1
+    ln Z = 28814.7 +- 0.3
+  Statistical Fit Parameters
+    P2             -2.1 +- 1.8
+    P1             -4.3 +- 1.6
+    log_P_set      -4.2 +- 1.6
+    T_set          329 +- 19
+    alpha_0        -0.5 +- 2.0
+    alpha_1        -0.27 +- 0.62
+    log_Pcloud     -5.38 +- 0.63
+    patchiness     0.657 +- 0.073
+    CH4            -1.86 +- 0.54
+    CO2            -2.19 +- 0.84
+    H2O            -5.8 +- 1.4
+    NH3            -6.4 +- 1.0
+

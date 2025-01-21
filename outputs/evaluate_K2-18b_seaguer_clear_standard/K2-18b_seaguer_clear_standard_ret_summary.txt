@@ -1,0 +1,38 @@
+K2-18b_seaguer_clear_standard
+2025-01-09, 17:29:01
+/home/juan/retrievals/tesis/outputs
+Live points: None
+
+Fixed Parameters
+    D_pl = 117337827120339632128.000
+    stellar_radius = 30610800000.000
+    planet_radius = 1451287600.000
+    mass = 51534082817673771334229819392.000
+    line_species = ['CH4.R1500', 'CO2.R1500', 'H2O.R1500', 'NH3.R1500']
+    cloud_species = []
+Free Parameters, Prior^-1(0), Prior^-1(1)
+    P2 = -5.999999, -0.000001
+    P1 = -5.999999, -0.000001
+    log_P_set = -5.999999, -0.000001
+    T_set = 100.000025, 349.999975
+    alpha_0 = -2.999999, 2.999999
+    alpha_1 = -2.999999, 2.999999
+    CH4 = -7.999999, -0.100001
+    CO2 = -7.999999, -0.100001
+    H2O = -7.999999, -0.100001
+    NH3 = -7.999999, -0.100001
+
+Data
+K2-18b_NIRISS
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRISS.txt
+    Model Function = guillot_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 700
+    model resolution = 1500
+K2-18b_NIRSPEC
+    /home/juan/retrievals/tesis/spectra/K2-18b_NIRSPEC.txt
+    Model Function = guillot_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 2700
+    model resolution = 1500
+
