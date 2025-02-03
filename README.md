@@ -11,8 +11,9 @@
 <h2>Spectra data</h2>
 The data used in the retrievals consists of the transmission spectrum of K2-18b in the range between $0.9 - 5.2 \mu m$, obtained with the NIRISS ($0.9 - 2.8 \mu m$) and NIRSPEC ($2.8 - 5.2 \mu m$) instruments of the JWST. 
 The spectrum was reported by <a href="#madhu2023">Madhusudhan et al. (2023)</a> and the high resolution spectrum, along with a low resolution spectrum used for plotting purposes, can be found <a href="https://osf.io/36djh/">here</a>.
-
-<img src="./figures/low_res_spectra.png" alt="K2-18b spectrum" width="500">
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+    <img src="./figures/low_res_spectra.png" alt="K2-18b spectrum" width="800">
+</div>
 
 <h2>Retrieval setup</h2>
 
