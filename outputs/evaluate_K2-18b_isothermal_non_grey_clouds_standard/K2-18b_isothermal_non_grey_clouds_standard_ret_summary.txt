@@ -1,5 +1,5 @@
 K2-18b_isothermal_non_grey_clouds_standard
-2025-01-05, 05:54:20
+2025-02-09, 16:32:57
 /home/juan/retrievals/tesis/outputs
 Live points: 200
 
