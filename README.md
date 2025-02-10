@@ -32,7 +32,7 @@ the incoming radiation field due to the stellar irradiation and the outgoing rad
 If isotropic irradiation is assumed, the temperature profile is given by:
 
 $$
-T^4 = \frac{3T_{int}^4}{4}\left[\frac{2}{3}+ \tau \right] + \frac{3T_{irr}^4}{4}f\left[\frac{2}{3} + \frac{1}{\gamma \sqrt{(3)}}+\left(\frac{\gamma}{3}-\frac{1}{\gamma\sqrt{(3)}}\rigth)e^{-\gamma\tau\sqrt{(3)}}\right]
+T^4 = \frac{3T_{int}^4}{4}\left[\frac{2}{3}+ \tau \right] + \frac{3T_{irr}^4}{4}f\left[\frac{2}{3} + \frac{1}{\gamma \sqrt{(3)}}+\left(\frac{\gamma}{3}-\frac{1}{\gamma\sqrt{(3)}}\right)e^{-\gamma\tau\sqrt{(3)}}\right]
 $$
 
 where $T_{int}$ is the temperature at the bottom of the atmosphere, $T_{irr}$ is the irradiation temperature at the top of the atmosphere, $f$ is a redistribution coefficient which is $f=1$ for the substellar point and $f=1/4$ for an average over the entire surface, $\tau$ is the optical depth, and $\gamma$ is the ratio between the visual and infrared mean opacities.
