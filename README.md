@@ -38,6 +38,28 @@ $$
 where $T_{int}$ is the temperature at the bottom of the atmosphere, $T_{irr}$ is the irradiation temperature at the top of the atmosphere, $f$ is a redistribution coefficient which is $f=1$ for the substellar point and $f=1/4$ for an average over the entire surface, $\tau$ is the optical depth, and $\gamma$ is the ratio between the visual and infrared mean opacities.
 
 <h3>Madhusudhan & Seager (2009)</h3>
+This parametric P-T profile assumes that the diffusion approximation still holds in the layers barely above the radiative-convective boundary and that incident stellar radiation is absorbed higher up in the atmosphere, leading to a nearly isothermal temperature structure in the layers inmediately above the radiative-convective boundary. Above this isothermal region, the diffusion approximation breaks down as the pressure and optical depth drops significantly, allowing for thermal inversions layers to form in the stratosphere.
+
+Atmopshere is dividided into three regions, parameterized by the following equations:
+
+$$
+P_0 < P < P_1 : P = P_0 e^{\alpha_1 (T - T_0)^{\beta_1}} \quad \text{Layer 1,}
+$$
+
+$$
+P_1 < P < P_3 : P = P_2 e^{\alpha_2 (T - T_2)^{\beta_2}} \quad \text{Layer 2,}
+$$
+
+$$
+P > P_3 : T = T_3 \quad \text{Layer 3.}
+$$
+
+The model has nine free parameters, but $\beta_1 = \beta_2 = 0.5$ are set empirically, and $P_0 = 10^{-6} bar$ as optical depths above this pressure tipically become so low that the the layers of the atmosphere are nearly transparent to incoming and outgoing radiation. Imposing continuity in the layers boundaries, the model can be reduced to six free parameters: $\alpha_1$, $\alpha_2$, $T_0$, $P_2$, $P_3$ and $T_3$. The upper layer corresponding to a "mesosphere" and the middle layer to a "stratosphere" where thermal inversions can be present. 
+
+As mentioned by <a href="#madhusudhan2009">Madhusudhan & Seager (2009)</a>, layer 3 is present in the atmosphere of hot Jupiters where the radiative-convective boundaries occur deep in the atmosphere where pressures are higher than 100 bar. However, for cooler planets, the radiative-convective boundary occurs at lower pressures, causing layer 3 to be absent, with layer 2 extending to deeper in the atmosphere.
+
+Having this in mind, we also considered a simplified version of the parametric P-T profile, consisting of the only two upper layers, corresponding to the mesosphere and the stratosphere. The modified model has only four free parameters: $\alpha_1$, $\alpha_2$, $T_0$, $P_2$ and $T_2$. 
+
 <h2>Chemical models for abundances</h2>
 
 <h2>Clouds and Hazes parameterizations</h2>
