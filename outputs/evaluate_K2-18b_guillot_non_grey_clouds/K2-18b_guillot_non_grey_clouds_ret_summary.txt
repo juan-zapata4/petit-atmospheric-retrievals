@@ -1,0 +1,62 @@
+K2-18b_guillot_non_grey_clouds
+2025-04-23, 23:10:01
+/Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/outputs
+Live points: 100
+
+Fixed Parameters
+    D_pl = 117563767217525309440.000
+    stellar_radius = 30610800000.000
+    planet_radius = 1508481200.000
+    mass = 53280357447222935719814103040.000
+    line_species = ['CH4.R1500', 'CO2.R1500', 'H2O.R1500', 'NH3.R1500']
+    cloud_species = ['H2O(l)']
+Free Parameters, Prior^-1(0), Prior^-1(1)
+    T_int = 0.000060, 599.999940
+    T_equ = 0.000060, 599.999940
+    gamma = 0.010000, 9.999993
+    log_kappa_IR = -3.000000, 1.000000
+    fsed_H2O(l) = 0.001000, 0.999999
+    log_kzz = 4.000001, 11.999999
+    log_X_cb_H2O(l) = -5.999999, -0.000001
+    sigma_lnorm = 1.050000, 3.000000
+    log_Pbase_H2O(l) = -5.000000, -0.000000
+    patchiness = 0.000000, 1.000000
+    CH4 = -7.999999, -0.100001
+    CO2 = -7.999999, -0.100001
+    H2O = -7.999999, -0.100001
+    NH3 = -7.999999, -0.100001
+
+Data
+K2-18b_NIRISS
+    /Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/spectra/K2-18b_NIRISS.txt
+    Model Function = guillot_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 700
+    model resolution = 1500
+K2-18b_NIRSPEC
+    /Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/spectra/K2-18b_NIRSPEC.txt
+    Model Function = guillot_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 2700
+    model resolution = 1500
+
+Multinest Outputs
+  marginal evidence:
+    log Z = 12515.5 +- 0.0
+    ln Z = 28818.1 +- 0.1
+  Statistical Fit Parameters
+    T_int          282 +- 78
+    T_equ          191 +- 106
+    gamma          0.3 +- 1.0
+    log_kappa_IR   -2.06 +- 0.63
+    fsed_H2O(l)    0.024 +- 0.078
+    log_kzz        9.67 +- 0.95
+    log_X_cb_H2O(l)-0.98 +- 0.35
+    sigma_lnorm    2.02 +- 0.60
+    log_Pbase_H2O(l)-4.1 +- 1.7
+    patchiness     0.562 +- 0.072
+    CH4            -1.38 +- 0.51
+    CO2            -1.96 +- 0.86
+    H2O            -5.7 +- 1.5
+    NH3            -6.53 +- 0.91
+

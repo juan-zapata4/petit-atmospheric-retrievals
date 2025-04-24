@@ -1,0 +1,58 @@
+K2-18b_guillot_non_grey_clouds_equilibrium
+2025-03-14, 20:36:37
+/Users/felipemustafa/Documents/interplay/petit/outputs
+Live points: 100
+
+Fixed Parameters
+    D_pl = 117563767217525309440.000
+    stellar_radius = 30610800000.000
+    planet_radius = 1508481200.000
+    mass = 53280357447222935719814103040.000
+    line_species = []
+    cloud_species = ['H2O(l)']
+Free Parameters, Prior^-1(0), Prior^-1(1)
+    T_int = 0.000060, 599.999940
+    T_equ = 0.000060, 599.999940
+    gamma = 0.010000, 9.999993
+    log_kappa_IR = -3.000000, 1.000000
+    fsed_H2O(l) = 0.001000, 0.999999
+    log_kzz = 4.000001, 11.999999
+    log_X_cb_H2O(l) = -5.999999, -0.000001
+    sigma_lnorm = 1.050000, 3.000000
+    log_Pbase_H2O(l) = -5.000000, -0.000000
+    patchiness = 0.000000, 1.000000
+    C/O = 0.200000, 1.200000
+    Fe/H = 0.000000, 3.000000
+
+Data
+K2-18b_NIRISS
+    /Users/felipemustafa/Documents/interplay/petit/spectra/K2-18b_NIRISS.txt
+    Model Function = guillot_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 700
+    model resolution = 1500
+K2-18b_NIRSPEC
+    /Users/felipemustafa/Documents/interplay/petit/spectra/K2-18b_NIRSPEC.txt
+    Model Function = guillot_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 2700
+    model resolution = 1500
+
+Multinest Outputs
+  marginal evidence:
+    log Z = 12506.9 +- 0.0
+    ln Z = 28798.1 +- 0.0
+  Statistical Fit Parameters
+    T_int          320 +- 90
+    T_equ          237 +- 146
+    gamma          0.28 +- 0.90
+    log_kappa_IR   -1.9 +- 1.1
+    fsed_H2O(l)    0.020 +- 0.056
+    log_kzz        9.4 +- 1.1
+    log_X_cb_H2O(l)-0.88 +- 0.48
+    sigma_lnorm    2.12 +- 0.50
+    log_Pbase_H2O(l)-1.9 +- 1.1
+    patchiness     0.953 +- 0.042
+    C/O            0.63 +- 0.26
+    Fe/H           1.59 +- 0.67
+

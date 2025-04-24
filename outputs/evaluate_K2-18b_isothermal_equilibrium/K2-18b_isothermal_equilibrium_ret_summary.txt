@@ -1,0 +1,52 @@
+K2-18b_isothermal_equilibrium
+2025-03-14, 20:39:03
+/Users/felipemustafa/Documents/interplay/petit/outputs
+Live points: 200
+
+Fixed Parameters
+    D_pl = 117337827120339632128.000
+    stellar_radius = 30610800000.000
+    planet_radius = 1451287600.000
+    mass = 51534082817673771334229819392.000
+    line_species = ['CH4.R1500', 'CO2.R1500', 'H2O.R1500', 'NH3.R1500']
+    cloud_species = []
+Free Parameters, Prior^-1(0), Prior^-1(1)
+    temperature = 0.000080, 799.999920
+    log_Pcloud = -5.999999, 0.999999
+    patchiness = 0.000000, 1.000000
+    C/O = 0.200000, 1.200000
+    Fe/H = 0.000000, 3.000000
+    CH4 = -7.999999, -0.100001
+    CO2 = -7.999999, -0.100001
+    H2O = -7.999999, -0.100001
+    NH3 = -7.999999, -0.100001
+
+Data
+K2-18b_NIRISS
+    /Users/felipemustafa/Documents/interplay/petit/spectra/K2-18b_NIRISS.txt
+    Model Function = isothermal_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 700
+    model resolution = 1500
+K2-18b_NIRSPEC
+    /Users/felipemustafa/Documents/interplay/petit/spectra/K2-18b_NIRSPEC.txt
+    Model Function = isothermal_transmission
+    distance = 3.0856775814913675e+19
+    data resolution = 2700
+    model resolution = 1500
+
+Multinest Outputs
+  marginal evidence:
+    log Z = -0.0 +- 0.0
+    ln Z = -0.1 +- 0.1
+  Statistical Fit Parameters
+    temperature    480.711 +- 0.083
+    log_Pcloud     -5.996 +- 0.000
+    patchiness     -5.986 +- 0.000
+    C/O            0.679416 +- 0.000025
+    Fe/H           0.202 +- 0.000
+    CH4            0.001 +- 0.000
+    CO2            -4.066 +- 0.046
+    H2O            -7.7950 +- 0.0093
+    NH3            -7.9925217 +- 0.0000018
+

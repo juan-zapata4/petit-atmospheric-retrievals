@@ -1,1 +1,1 @@
-["temperature", "log_X_cb_H2O(l)", "fsed_H2O(l)", "log_cloud_radius_H2O(l)", "log_Pbase_H2O(l)", "sigma_lnorm", "CH4", "CO2", "H2O", "NH3"]
+["temperature", "log_Pcloud", "patchiness", "CH4", "CO2", "H2O", "NH3"]
