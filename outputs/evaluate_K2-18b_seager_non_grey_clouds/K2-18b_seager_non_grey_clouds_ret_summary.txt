@@ -1,6 +1,6 @@
 K2-18b_seager_non_grey_clouds
-2025-03-20, 17:24:05
-/Users/felipemustafa/Documents/interplay/petit/outputs
+2025-04-27, 22:04:38
+/Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/outputs
 Live points: 100
 
 Fixed Parameters
@@ -30,13 +30,13 @@ Free Parameters, Prior^-1(0), Prior^-1(1)
 
 Data
 K2-18b_NIRISS
-    /Users/felipemustafa/Documents/interplay/petit/spectra/K2-18b_NIRISS.txt
+    /Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/spectra/K2-18b_NIRISS.txt
     Model Function = madhushudhan_seager_transmission_modified
     distance = 3.0856775814913675e+19
     data resolution = 700
     model resolution = 1500
 K2-18b_NIRSPEC
-    /Users/felipemustafa/Documents/interplay/petit/spectra/K2-18b_NIRSPEC.txt
+    /Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/spectra/K2-18b_NIRSPEC.txt
     Model Function = madhushudhan_seager_transmission_modified
     distance = 3.0856775814913675e+19
     data resolution = 2700
