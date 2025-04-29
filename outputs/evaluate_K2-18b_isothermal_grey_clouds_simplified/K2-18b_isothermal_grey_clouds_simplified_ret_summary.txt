@@ -1,6 +1,6 @@
 K2-18b_isothermal_grey_clouds_simplified
-2025-03-24, 14:01:41
-/Users/felipemustafa/Documents/interplay/petit/outputs
+2025-04-28, 23:25:18
+/Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/outputs
 Live points: 200
 
 Fixed Parameters
@@ -19,13 +19,13 @@ Free Parameters, Prior^-1(0), Prior^-1(1)
 
 Data
 K2-18b_NIRISS
-    /Users/felipemustafa/Documents/interplay/petit/spectra/K2-18b_NIRISS.txt
+    /Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/spectra/K2-18b_NIRISS.txt
     Model Function = isothermal_transmission
     distance = 3.0856775814913675e+19
     data resolution = 700
     model resolution = 1500
 K2-18b_NIRSPEC
-    /Users/felipemustafa/Documents/interplay/petit/spectra/K2-18b_NIRSPEC.txt
+    /Users/felipemustafa/Documents/interplay/petit/petit-atmospheric-retrievals/spectra/K2-18b_NIRSPEC.txt
     Model Function = isothermal_transmission
     distance = 3.0856775814913675e+19
     data resolution = 2700

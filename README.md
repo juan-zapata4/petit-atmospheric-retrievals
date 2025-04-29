@@ -4,6 +4,9 @@ This repository contains code and analysis tools for performing atmospheric retr
 
 I am currently working on extending this analysis to include the recently published MIRI spectrum of K2-18b, and I aim to update this repository regularly as I explore and refine the atmospheric models. The tools implement radiative transfer modeling to constrain atmospheric properties and compositions of this promising exoplanet.
 
+![Fitted transmission spectrum of K2-18b](figures/spectra.png)
+*Transmission spectrum of K2-18b showing the best-fit model for grey (blue line) and non-grey (orange line) models. Non-grey model shows stronger absorption features, while the grey model produces a flatter spectrum. Key spectral features regions of $\ce{CH4}$ and $\ce{CO2}$ are indicated <a href="#Madhu2009">Madhusudhan et al. (2023)</a>.*
+
 
 ## Article
 
@@ -88,7 +91,3 @@ This project requires the following Python packages:
 I am an astronomer passionate about the study of exoplanets and the search for extraterrestrial life. My research centers on atmospheric retrieval techniques to analyze the chemical compositions and physical properties of exoplanetary atmospheres, with a focus on promising targets such as Sub-Neptunes and Super-Earths. I am particularly interested in how different atmospheric models and retrieval methods can deepen our understanding of these fascinating worlds and their potential to host life.
 
 Feel free to reach out if you have any questions or would like to collaborate!
-
-## Acknowledgments
-
-[Add acknowledgments here]
