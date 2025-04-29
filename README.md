@@ -1,6 +1,9 @@
 # Atmospheric Retrievals using petitRADTRANS
 
-This repository contains the code and analysis tools used for atmospheric retrievals of Sub-Neptune exoplanets using the petitRADTRANS radiative transfer code. The work was part of a scientific study focusing on K2-18b's atmosphere characterization.
+This repository contains code and analysis tools for performing atmospheric retrievals of Sub-Neptune exoplanets using the petitRADTRANS radiative transfer code. The current implementation focuses on analyzing the atmosphere of K2-18b using the NIRISS (0.9-2.8 μm) and NIRSPEC (2.8-5.2 μm) transmission spectra, which was the scope of my undergraduate thesis work.
+
+I am currently working on extending this analysis to include the recently published MIRI spectrum of K2-18b, and I aim to update this repository regularly as I explore and refine the atmospheric models. The tools implement radiative transfer modeling to constrain atmospheric properties and compositions of this promising exoplanet.
+
 
 ## Article
 
@@ -10,13 +13,18 @@ The full manuscript can be found in the `article/` directory. This includes:
 - Results and discussion
 - References
 
-## Installation
-
-[Add installation instructions here]
-
 ## Usage
 
-[Add usage instructions here]
+The `notebooks/` directory contains several Jupyter notebooks, each implementing a different atmospheric model for K2-18b.
+
+Each notebook can be run independently and includes detailed documentation. To get started:
+
+1. Install the required dependencies (see Dependencies section)
+2. Download or clone this repository
+3. Launch Jupyter Lab/Notebook in the repository directory
+4. Open any notebook of interest and follow the in-notebook instructions
+
+The notebooks are designed to be modular, allowing users to focus on specific aspects of the atmospheric analysis.
 
 ## Repository Structure
 
@@ -31,7 +39,15 @@ The full manuscript can be found in the `article/` directory. This includes:
 
 ## Dependencies
 
-[Add list of dependencies here]
+This project requires the following Python packages:
+
+- petitRADTRANS - For radiative transfer modeling and atmospheric retrievals
+- MultiNest - For Bayesian inference and nested sampling
+- PyMultiNest - Python interface for MultiNest
+- numpy - For numerical computations
+- matplotlib - For plotting and visualization
+- scipy - For scientific computing utilities
+
 
 ## Quick Start
 
@@ -66,6 +82,12 @@ The full manuscript can be found in the `article/` directory. This includes:
 <span id="Batalha">Batalha, N.M., 2014. Exploring exoplanet populations with NASA's Kepler Mission. Proceedings of the National Academy of Sciences, 111(35), pp.12647-12654. DOI: [10.1073/pnas.1304196111](https://doi.org/10.1073/pnas.1304196111)</span>
 
 <span id="Madhu2021">Madhusudhan, N., Piette, A., and Constantinou, S., 2021. Habitability and Biosignatures of Hycean Worlds. The Astrophysical Journal, 918(1), p.1. DOI: [10.3847/1538-4357/abfd9c](https://doi.org/10.3847/1538-4357/abfd9c)</span>
+
+## About Me
+
+I am an astronomer passionate about the study of exoplanets and the search for extraterrestrial life. My research centers on atmospheric retrieval techniques to analyze the chemical compositions and physical properties of exoplanetary atmospheres, with a focus on promising targets such as Sub-Neptunes and Super-Earths. I am particularly interested in how different atmospheric models and retrieval methods can deepen our understanding of these fascinating worlds and their potential to host life.
+
+Feel free to reach out if you have any questions or would like to collaborate!
 
 ## Acknowledgments
 
