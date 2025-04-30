@@ -54,7 +54,6 @@ This project requires the following Python packages:
 
 ## Quick Start
 
-[Add quick start guide here]
 
 ## References
 
